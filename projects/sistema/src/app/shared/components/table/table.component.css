@@ -1,0 +1,23 @@
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+.highline{
+    cursor: pointer;
+}
+.highline:hover{
+    background-color: aqua;
+}
+
+.headerRow {
+background-color: blue;
+}
+
+.cellData{
+    border-bottom: 1px solid red;
+}
+
+.highlineMarked{
+    background-color: yellow;
+}

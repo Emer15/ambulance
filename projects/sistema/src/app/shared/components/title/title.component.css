@@ -1,0 +1,30 @@
+.toolbar{
+    display: flex;
+    align-items: center;/*alinia segun al eje vertical*/
+    justify-content: space-between;
+    padding: 0 16px;
+    background-color: white;
+    border-bottom: 1px solid rgb(226, 232, 240);
+    height: 80px;
+    
+}
+
+.info {
+    display: flex;
+    align-items: center;
+}
+
+.info mat-icon{
+    font-size: 34 px;
+    height: 34 px;
+    width: 34 px;
+}
+
+
+.info h2{
+font-size: 24px;
+color: rgb(30, 41, 59)!important;
+line-height: 80px;
+font-family: Inter;
+}
+

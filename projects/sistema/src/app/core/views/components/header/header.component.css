@@ -1,0 +1,18 @@
+mat-toolbar{
+
+    background-color: white !important;
+    border-bottom: 2px solid #6b6b6b2b;
+    display: flex;
+    justify-content: space-between;/*justifica el menu */
+  
+}
+
+.profile{
+height: 100%;
+}
+.profile img{
+    max-width: 40px;
+    border-radius: 50%;
+    border-bottom: 2px solid #6b6b6b2b;
+
+}

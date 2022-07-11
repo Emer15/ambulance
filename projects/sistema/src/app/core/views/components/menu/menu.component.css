@@ -1,0 +1,28 @@
+mat-list-item a, 
+mat-list-item a:link
+mat-list-item a:visited
+mat-list-item a:active
+{   color: rgba(255, 255, 255, 0.5);
+    font-size: 13px;
+    font-weight: 500;
+    display: block;
+    width: 100%;
+    padding: 0 20px;
+}
+
+mat-list-item a.activeLink,
+mat-list-item a:hover{
+    color: white !important;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+
+
+mat-list-item span.mat-list-item-content{
+    padding: 0 !important;
+}
+
+mat-list-item span.title{
+    padding-left: 15px;
+}
+
